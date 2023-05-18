@@ -90,8 +90,9 @@ function operation(op){
     }
     else if(prevText.innerHTML!=""){
         var ope = prevText.innerHTML[prevText.innerHTML.length-1];
-        currentText.innerHTML=compute(prevText.innerHTML.substring(0,prevText.innerHTML.length-1),currentText.innerHTML,ope);
-        prevText.innerHTML="";
+        var resu =compute(prevText.innerHTML.substring(0,prevText.innerHTML.length-1),currentText.innerHTML,ope);
+        prevText.innerHTML=resu.concat(op.target.innerHTML);
+        currentText.innerHTML="0";
     }
 }
 
