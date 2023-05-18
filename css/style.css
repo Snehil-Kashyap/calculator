@@ -1,0 +1,157 @@
+body{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background: linear-gradient(45deg, gray,white,gray);
+}
+
+button{
+    margin: 5px;
+    border-radius: 6px;
+    border-color: #EBBDF5;
+    box-shadow: 2px 2px black;
+}
+
+.calc{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 30rem;
+    border: solid;
+    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 50px;
+    border-color: #F6DCF4;
+    box-shadow: 2px 2px white;
+    background: linear-gradient(45deg, black,gray,black);
+}
+
+input{
+    border-color: #EBBDF5;
+}
+
+input:active,
+input:focus{
+    outline: #EBBDF5;
+}
+
+.res_disp{
+    background-color: white;
+    padding: 10px;
+    padding-top: 5px;
+    text-align: right;
+    font-size: 3.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-shadow: 2px 2px white;
+    width: 30rem;
+    height: 8rem;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px black;
+}
+
+.ac{
+    width: 16.3rem;
+    height: 4rem;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px white;
+}
+
+.del{
+    width: 12.4rem;
+    height: 4rem;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px white;
+}
+
+.no{
+    width: 5rem;
+    height: 3.5rem;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px white;
+}
+
+.operator{
+    width: 12.5rem;
+    height: 3.5rem;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px white;
+}
+
+.equal{
+    width: 5rem;
+    height: 3.5rem;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px white;
+}
+
+.decimal,
+.zero{
+    width: 5rem;
+    height: 3.5rem;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px white;
+}
+
+.buttons{
+    margin-top: 3%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: black;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px white;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, black,gray,black);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    margin-top:10px;
+    padding-top: 5px;
+    height: 4rem;
+}
+
+img{
+    width: 1.5rem;
+}
+
+p{
+    margin: 1px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /*text-shadow: 1px 1px white;*/
+    font-size: 1.5rem;
+}
+
+.head{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    height: 5.3rem;
+}
+
